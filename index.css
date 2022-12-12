@@ -1,0 +1,210 @@
+*{
+  
+    margin: 0;
+    background: #5A5560 ;
+    color:#FFFFFF;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #9D8D8F ;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    background-color: #46344E;
+    color: #FAED26 ;
+    font-size: 25px;
+    
+    
+
+}
+.LearnMore{
+    color: #FFFFFF;
+    border: 2px solid #FAED26 
+
+}
+.about .about-text a.btn {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 2px solid #FAED26 ;
+    border-radius: 0;
+    background: #5A5560;
+    transition: .3s;
+}
+.cardProducts{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-item{
+    position: relative;
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 2px solid #FAED26 ;
+    color: #FFFFFF ;
+   
+    background: #46344E;
+
+}
+.itemImgContact{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #FFFFFF ;
+    border: 2px solid #FAED26 ;
+    
+}
+.contact .contact-form .btn  {
+    padding: 16px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF ;
+    background: #46344E;
+    border: 2px solid #FAED26 ;
+    border-radius: 0;
+    transition: .3s;
+}
+.contact-form{
+    color: #FFFFFF;
+}
+.cardProducts{
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0), rgba(0, 0, 0, 1) 90%);
+}
+
+.testimonial {
+    position: relative;
+    padding: 45px 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), ;
+}
+.testimonial .testimonial-item {
+    position: relative;
+    margin: 0 15px;
+    padding: 30px;
+    background: #46344E;
+    overflow: hidden;
+}
+
+.testimonial-item .p {
+     color: #ffffff;
+     font-size: 16px;
+     margin: 0;
+    }
+
+    .testimonial .owl-dot {
+        display: inline-block;
+        margin: 0 5px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #9D8D8F;
+    }
+
+    .owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+        cursor: pointer;
+        cursor: hand;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .testimonial .owl-nav, .testimonial .owl-dots {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footer .conteiner{
+        background: #46344E;
+    }
+    .figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+    }
+
+    .carousel .carousel-caption {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: calc(100vh - 170px);
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color:#FAED26;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+    .carousel .carousel-caption .btn {
+        padding: 15px 35px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #aa9166;
+        background: #121518;
+        border: 2px solid #aa9166;
+        border-radius: 0;
+        transition: .3s;
+    }
+
+    .feature-top .feature-item {
+        padding: 30px 0;
+        text-align: center;
+    }
